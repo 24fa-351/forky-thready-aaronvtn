@@ -1,5 +1,5 @@
-forkthread: forkthread.c
-	gcc -o forkthread forkthread.c
+forky: forky.c
+	gcc -o forky forky.c
 
 clean:
-	rm forkthread
+	rm forky

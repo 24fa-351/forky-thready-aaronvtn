@@ -1,0 +1,23 @@
+Pattern 1:
+** Pattern 1: creating 4 processes
+Parent: created child 0 (pid 94003)
+Parent: created child 1 (pid 94004)
+Process 0 (pid 94003) created: will sleep for 7 seconds
+Parent: created child 2 (pid 94005)
+Process 1 (pid 94004) created: will sleep for 3 seconds
+Parent: created child 3 (pid 94006)
+Process 2 (pid 94005) created: will sleep for 5 seconds
+Process 3 (pid 94006) created: will sleep for 6 seconds
+Process 0 (pid: 94003): exiting
+Process 1 (pid: 94004): exiting
+Process 2 (pid: 94005): exiting
+Process 3 (pid: 94006): exiting
+Pattern 1: All children have exited
+Pattern 2:
+** Pattern 2: creating 4 processes
+Child 0 (pid 94002): starting 8 seconds after creating child 1 (pid 94018)
+Child 1 (pid 94002): starting 8 seconds after creating child 2 (pid 94021)
+Child 2 (pid 94002): starting 8 seconds after creating child 3 (pid 94024)
+Child 3 (pid 94002): starting 6 seconds after creating child 4 (pid 94027)
+Parent: child 0 (pid 94027) has exiting
+** Pattern 2: All children have exited
